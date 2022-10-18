@@ -1,0 +1,115 @@
+.pt-40 {
+    padding-top: 40px;
+}
+
+.hero__standout {
+    position: relative;
+}
+*, .plyr--full-ui {
+    box-sizing: border-box;
+}
+img {
+    border-style: none;
+}
+
+.img-fluid, .img-thumbnail {
+    max-width: 100% !important;
+    height: auto;
+}
+
+@media (min-width: 992px){
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+.hero__standout--headline {
+    background: #fff;
+    padding: 40px 30px;
+    margin-top: -80px;
+    -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+.section__heading {
+    display: block;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.headline {
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.section__heading::before {
+    position: absolute;
+    display: block;
+    background: url(../images/section-heading.png) no-repeat;
+    background-size: cover;
+    width: 85px;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+}
+.headline {
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.headline::before {
+    position: absolute;
+    content: "\f10d";
+    font-family: FontAwesome;
+    color: #1e5ee5;
+    top: -5px;
+    left: 0;
+}
+.hero__standout--content {
+    padding: 40px 20px 0;
+}
+.notices__heading {
+    margin-bottom: 60px;
+}
+.section__heading {
+    display: block;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.section__heading::before {
+    position: absolute;
+    display: block;
+    background: url(../images/section-heading.png) no-repeat !important;
+    background-size: cover;
+    width: 85px;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+}
+.section__column {
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.section__column-left {
+    padding-left: 80px;
+}
+
+
+.section__column .column-icon {
+    position: absolute;
+    top: 0;
+}
+.section__column-left .column-icon {
+    left: 0;
+}
