@@ -113,3 +113,14 @@ img {
 .section__column-left .column-icon {
     left: 0;
 }
+.core-nav .nav-header {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+@media (min-width: 992px){
+.core-content {
+    position: relative;
+    min-height: 100vh;
+}
+}
