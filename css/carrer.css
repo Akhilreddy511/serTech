@@ -4,6 +4,7 @@
  
  }
 
+
  
 .header__inner, .header__inner:hover {
     background: #fff;
@@ -318,6 +319,7 @@ content: "";
     box-shadow: 0 15px 16px -5px rgb(150 155 181 / 55%);
     transition: all .3s ease-in-out;
 }
+
 
 /* footer code */
 .footer {

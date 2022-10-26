@@ -437,11 +437,11 @@ a {
     top: 0;
 }
 /* home */
-body, html {
+/* body, html {
     color: #2c2d2d;
     margin-bottom: 0;
     overflow-x: hidden!important;
-}
+} */
 
 /* not header and footer */
 .section__cta {

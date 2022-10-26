@@ -366,3 +366,43 @@ a {
 .carousel-inner::after, .clearfix::after, .embed-responsive::before, .popover .arrow::after, .popover .arrow::before, .stretched-link::after, .tooltip .arrow::before {
     content: "";
 }
+
+.section__cta {
+    background: url(../images/cta-bg.png) center center no-repeat #403595 !important;
+    padding: 100px 0 !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.section__column-left {
+    padding-left: 80px;
+}
+.section__column {
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+}
+.section__column-left .column-icon {
+    left: 0;
+}
+.section__column .column-icon {
+    position: absolute;
+    top: 0;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+img, svg {
+    vertical-align: middle;
+}
+.notices__heading {
+    margin-bottom: 60px;
+}
