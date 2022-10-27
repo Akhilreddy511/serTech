@@ -5,95 +5,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/home.css">
-
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/contact-us.css">
+  
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
 
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="../font-awesome-4.7.0/scss/_icons.scss"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
     <!-- JavaScript Bundle with Popper -->
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 
     <title></title>
 </head>
 
 <body>
     <div class="core-content core-responsive-slide">
+
+
+        <!-- Start Header -->
         <header class="header js-header-scroll header__inner">
             <nav class="core-nav">
-                <div class="nav-container">
-                    <div class="nav-header right">
-                        <a href="home.html" class="brand">
-                            <img src="../images/LogoColorTextRight.png" class="logo" alt="Smooth">
-                        </a>
-                        <button class="toggle-bar core-nav-toggle">
-                            <span class="fa fa-bars"></span>
-                        </button>
-                    </div>
-                    <!-- Start Header menu for mobile -->
-
-                    <!-- End Header menu for mobile -->
-                    <div class="wrap-core-nav-list right">
-                        <div class="header__mobile js-header-menu">
-                            <a href="#" class="header__mobile-brand">Menu</a>
-                            <button class="toggle-bar header__mobile-toggle core-nav-toggle">
-                                <span class="fa fa-remove"></span>
-                            </button>
-                        </div>
-                        <ul class="menu core-nav-list">
-                            <li><a href="../index.html">Home</a></li>
-                            <li><a href="./about-us.html">About Us</a></li>
-                            <li class="dropdown open"><a href="home-alt2.html">Services</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="consulting.html">Consulting</a></li>
-                                    <li><a href="staffing.html">Staffing</a></li>
-                                    <li><a href="app-development.html">App Development</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="home-alt2.html">Training</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="ui-development.html">UI Developer</a></li>
-                                    <li><a href="java-applicaion.html">Java</a></li>
-                                    <li><a href="asp-dot-net.html">ASP.NET</a></li>
-                                    <li><a href="qa.html">QA</a></li>
-                                    <li><a href="python.html">Python</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li><a href="home-alt5.html">Company</a></li> -->
-                            <li class="active"><a href="home-alt3.html">Career</a></li>
-                            <li><a href="../pages/contact-us.html">Contact</a></li>
+              <div class="nav-container">
+                <div class="nav-header right">
+                    <a href="home.html" class="brand">
+                        <img src="../images/LogoColorTextRight.png" class="logo" alt="Smooth">
+                    </a>
+                    <button class="toggle-bar core-nav-toggle">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>		
+                <!-- Start Header menu for mobile -->
+                
+                <!-- End Header menu for mobile -->	
+                <div class="wrap-core-nav-list right"><div class="header__mobile js-header-menu">
+                    <a href="#" class="header__mobile-brand">Menu</a>
+                    <button class="toggle-bar header__mobile-toggle core-nav-toggle">
+                        <span class="fa fa-remove"></span>
+                    </button>
+                </div><ul class="menu core-nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li class="dropdown open"><a >Services</a><span class="font-downArrow"><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="./consulting.html">Consulting</a></li>
+                            <li><a href="./staffing.html">Staffing</a></li>
+                            <li><a href="./app-development.html">App Development</a></li>
                         </ul>
-                    </div>
-                    <!-- <ul class="attributes">
+                    </li>
+                    <li class="dropdown"><a>Training</a><span class="font-downArrow"><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="./ui-development.html">UI Developer</a></li>
+                            <li><a href="./java-applicaion.html">Java</a></li>
+                            <li><a href="./asp-dot-net.html">ASP.NET</a></li>
+                            <li><a href="./qa.html">QA</a></li>
+                            <li><a href="./python.html">Python</a></li>
+                        </ul>
+                    </li>
+                        <!-- <li><a href="home-alt5.html">Company</a></li> -->
+                    <li><a href="./carrer.html">Career</a></li>
+                    <li class="active"><a href="./contact-us.html">Contact</a></li>
+                </ul></div>
+                <!-- <ul class="attributes">
                     <li class="header__button"><a href="https://themeforest.net/user/99webpage/portfolio" class="btn btn-primary btn-rounded btn-xs btn-header">Try free</a></li>
                     <li class="header__download-icon"><a href="https://themeforest.net/user/99webpage/portfolio"><i class="fa fa-download"></i></a></li>
                 </ul> -->
-                </div>
-            </nav>
-            <div class="dropdown-overlay"></div>
+            </div></nav><div class="dropdown-overlay"></div>
         </header>
-        <div class="dropdown-overlay"></div>
-
- 
-
-        <footer class="footer">
+        <!-- End Header -->
+        
+          
+        <!-- Start breadcrumb -->
+        <section class="innerpage__head mb-0" style="padding: 61px 0 10px;">
+            <div class="container">
+                <!-- <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Page</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                </ol> -->
+            </div>
+        </section>
+        <!-- End breadcrumb -->
+    
+        <!-- Start Section -->
+        <section class="section section__contact p-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 order-lg-4 js-match-height" style="height: 774px;">
+                        <div class="contact__main">
+                            <h2 class="section__heading">Contact us</h2>
+                            <!-- <p>Sed in everti deleniti qualisque. Eum epicurei disputando te. Vero veri et qui, quis reque eu eos. <a href="#">Has modo vituperatoribus in</a>, dicunt neglegentur ea vis. Cu nibh tamquam mea, causae suscipit splendide no mei.</p> -->
+                            <form class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                                </div>
+    
+                                <div class="col-md-6 form-group">
+                                    <label for="emal">Email address</label>
+                                    <input type="email" class="form-control" id="emal" aria-describedby="emal" placeholder="Enter your email address">
+                                </div>
+    
+                                <div class="col-md-12 form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" aria-describedby="subject" placeholder="Enter your subject">
+                 
+                                </div>
+    
+                                <div class="col-md-12 form-group">
+                                    <label for="comment">Comment</label>
+                                    <textarea class="form-control" id="comment" aria-describedby="comment" rows="8">Enter your comments</textarea>
+                                </div>
+    
+                                <div class="col-md-12 form-action">
+                                    <button type="submit" class="btn btn-primary btn-rounded">Sand a message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 js-match-height" style="height: 774px;">
+                        <aside class="aside__left contact__aside">
+                            <div class="contact__aside--content">
+                                <div class="contact__aside--widget">
+                                    <h5 class="contact__aside--widget-title"><i class="fa fa-home"></i> Office address</h5>
+                                    <p>7150 Holland Dr,  Suite 102B <br>
+    Frisco TX 75035</p>
+                                </div>
+                                <div class="contact__aside--widget">
+                                    <h5 class="contact__aside--widget-title"><i class="fa fa-phone"></i> Phone number</h5>
+                                    <p>469-405-5335</p>
+                                </div>
+                                <div class="contact__aside--widget">
+                                    <h5 class="contact__aside--widget-title"><i class="fa fa-envelope"></i> Email address</h5>
+                                    <p>info@srtechpath.com</p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+    
+        <!-- Start Section -->
+        <section class="section section__cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h2>Need help's... Feel fee to contact us</h2>
+                        <a href="#" class="btn btn-white btn-rounded btn-lg btn-icon-right">Get in touch <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+    
+        <!-- Start Back to top -->
+        <!-- <div class="back-to-top js-back-to-top">
+            <span class="fa fa-angle-double-up back-to-top__icon"></span>
+            <span class="back-to-top__text">TOP</span>
+        </div> -->
+        <!-- End Back to top -->
+    
+          <!-- Start Footer -->
+          <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="footer__widget">
                             <img src="../images/LogoColorTextRight.png" class="footer__widget-logo" alt="Smooth">
                             <p>7150 Holland Dr,  Suite 102B <br>
-                                 Frisco TX 75035</p>
+    Frisco TX 75035</p>
                             <div class="footer__widget-contact">
                               <i class="fa fa-phone"></i>
                                 <p>+1 (510) 361-8596</p>
                             </div>
                             <div class="footer__widget-contact">
                                 <i class="fa fa-envelope"></i>
-                                <p>Hr@maxsoft-it.com</p>
+                                <p>info@srtechpath.com</p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +243,7 @@
                         <div class="footer__subfooter">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <p>Â© <a href="#">Maxsoft</a></p>
+                                    <p>Â© <a href="#">SRtech</a></p>
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <ul class="footer__subfooter-liststyle">
@@ -165,8 +258,23 @@
                 </div>
             </div>
         </footer>
+        <!-- End Footer -->
+    
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+    
+        <!-- Template main JavaScript -->
+        <script src="assets/js/main.min.js"></script>
+    
+        <!-- Template custome JavaScript -->
+        <script src="assets/js/scripts.min.js"></script>
+        
+    
+    <!-- Mirrored from 99webpage.com/theme-review/landingpage/smooth/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Feb 2021 06:50:33 GMT -->
+    
     </div>
-
               <!-- Bootstrap core JavaScript
           ================================================== -->
           <!-- Placed at the end of the document so the pages load faster -->
