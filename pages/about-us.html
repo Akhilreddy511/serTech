@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
     <link rel="stylesheet" href="../css/about-us.css">
   
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
@@ -25,236 +25,280 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class=".container-fluid">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="/">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="#">Link</a> -->
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Consulting</a></li>
-                            <li><a class="dropdown-item" href="#">Staffing</a></li>
-                            <li><a class="dropdown-item" href="#">App Development</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="#">Link</a> -->
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Traning
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">JAVA</a></li>
-                            <li><a class="dropdown-item" href="#">UI</a></li>
-                            <li><a class="dropdown-item" href="#">Java</a></li>
-                            <li><a class="dropdown-item" href="#">ASP.Net</a></li>
-                            <li><a class="dropdown-item" href="#">QA</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Contact</a>
-                </li>
-            </ul>
+    <div class="core-content core-responsive-slide">
 
-    <section class="section pt-40 pb-0">
-        <div class="container" style="max-width: 1348px;">
-            <div class="hero__standout">
-                <img src="../images/about-uss.jpg" class="img-fluid" alt="Image article">
+        <!-- Start Header -->
+        <header class="header js-header-scroll header__inner">
+            <nav class="core-nav">
+              <div class="nav-container">
+                <div class="nav-header right">
+                    <a href="home.html" class="brand">
+                        <img src="../images/LogoColorTextRight.png" class="logo" alt="Smooth">
+                    </a>
+                    <button class="toggle-bar core-nav-toggle">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>		
+                <!-- Start Header menu for mobile -->
                 
+                <!-- End Header menu for mobile -->	
+                <div class="wrap-core-nav-list right"><div class="header__mobile js-header-menu">
+                    <a href="#" class="header__mobile-brand">Menu</a>
+                    <button class="toggle-bar header__mobile-toggle core-nav-toggle">
+                        <span class="fa fa-remove"></span>
+                    </button>
+                </div><ul class="menu core-nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li class="dropdown open"><a >Services</a><span class="font-downArrow"><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="./consulting.html">Consulting</a></li>
+                            <li><a href="./staffing.html">Staffing</a></li>
+                            <li><a href="./app-development.html">App Development</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a>Training</a><span class="font-downArrow"><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="./ui-development.html">UI Developer</a></li>
+                            <li><a href="./java-applicaion.html">Java</a></li>
+                            <li><a href="./asp-dot-net.html">ASP.NET</a></li>
+                            <li><a href="./qa.html">QA</a></li>
+                            <li><a href="./python.html">Python</a></li>
+                        </ul>
+                    </li>
+                        <!-- <li><a href="home-alt5.html">Company</a></li> -->
+                    <li class="active"><a href="./carrer.html">Career</a></li>
+                    <li><a href="./contact-us.html">Contact</a></li>
+                </ul></div>
+                <!-- <ul class="attributes">
+                    <li class="header__button"><a href="https://themeforest.net/user/99webpage/portfolio" class="btn btn-primary btn-rounded btn-xs btn-header">Try free</a></li>
+                    <li class="header__download-icon"><a href="https://themeforest.net/user/99webpage/portfolio"><i class="fa fa-download"></i></a></li>
+                </ul> -->
+            </div></nav><div class="dropdown-overlay"></div>
+        </header>
+        <!-- End Header -->
+        
+          
+          <!-- Start breadcrumb -->
+          <!-- <section class="innerpage__head">
+              <div class="container">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Page</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">About us</li>
+                  </ol>
+              </div>
+          </section> -->
+          <!-- End breadcrumb -->
+      
+          <!-- Start Section -->
+          <section class="section pt-40 pb-0">
+              <div class="container" style="max-width: 1348px;">
+                  <div class="hero__standout">
+                      <img src="../images/about-uss.jpg" class="img-fluid" alt="Image article">
+                      
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <div class="hero__standout--headline">
+                                  <h2 class="section__heading">About US </h2>
+                                  <div class="headline"> Welcome to SRtech IT
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="hero__standout--content">
+                                  <p>SRtech is a focused product development, software services and technology consulting company. Established in Texas and Offshore development centers in India, we have engaged with a lot of clients in creating strategy, implementing, deploying, and supporting a wide range of solutions for clients worldwide. Our clients include a diversified set of Fortune 500, free essay example mid-sized and startup companies. They rely on us to provide them with timely, high-quality work and they return to us because we're reliable, experienced and easy to work with.</p>
+                                 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+      
+      <!-- Start Section -->
+      <section class="section pt-40">
+          <div class="container">
+              <div class="notices__heading">
+                  <div class="row">
+                      <div class="col-lg-4">
+                          <h2 class="section__heading">Our Mission</h2>
+                      </div>
+                      <div class="col-lg-8">
+                          <div class="notices__content">
+                              <p>We will work directly with you throughout the web development process. Our goal is to make you happy with guaranteed and impeccable customer service unlike you have experienced with any other website development company.
+      
+                                  </p>
+                              <p>SRtech is an expert in providing training for learning various software, hardware and networking. IT courses which has good employment opportunities are designed and offered by globally certified trainers. Internship training with live and real-time projects is provided with the training course. Placement support with unlimited number of interviews to leading IT companies and multinational IT companies is provided by SRtech .</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4">
+                      <div class="section__column section__column-left">
+                          <span class="icon icon-device column-icon"></span>
+                          <h4>Improve Your Business</h4>
+                          <p>
+                              Help our customers grow and improve their business.
+                          </p>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-4">
+                      <div class="section__column section__column-left">
+                          <span class="icon icon-gift column-icon"></span>
+                          <h4>Workplace for Employees</h4>
+                          <p>
+                              Create a workplace where employees can learn, grow and prosper.
+                          </p>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-4">
+                      <div class="section__column section__column-left">
+                          <span class="icon icon-paper-plane column-icon"></span>
+                          <h4>Best Investment</h4>
+                          <p>
+                              Deliver the best return on investment and create long-term value for our shareholders.
+                          </p>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-4">
+                      <div class="section__column section__column-left">
+                          <span class="icon icon-chart column-icon"></span>
+                          <h4>Contributions</h4>
+                          <p>
+                              Make contributions to enhance the well-being of the communities where we live and work.
+                          </p>
+                      </div>
+                  </div>
+      
+                 
+                  
+              </div>
+             
+          </div>
+      </section>
+      <!-- End Section -->
+      
+        
+      
+          <!-- Start Back to top -->
+          <!-- <div class="back-to-top js-back-to-top">
+              <span class="fa fa-angle-double-up back-to-top__icon"></span>
+              <span class="back-to-top__text">TOP</span>
+          </div> -->
+          <!-- End Back to top -->
+      
+          <!-- Start Footer -->
+          <footer class="footer">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="hero__standout--headline">
-                            <h2 class="section__heading">About US </h2>
-                            <div class="headline"> Welcome to Maxsoft IT
+                    <div class="col-lg-3">
+                        <div class="footer__widget">
+                            <img src="../images/LogoColorTextRight.png" class="footer__widget-logo" alt="Smooth">
+                            <p>7150 Holland Dr,  Suite 102B <br>
+    Frisco TX 75035</p>
+                            <div class="footer__widget-contact">
+                              <i class="fa fa-phone"></i>
+                                <p>+1 (510) 361-8596</p>
+                            </div>
+                            <div class="footer__widget-contact">
+                                <i class="fa fa-envelope"></i>
+                                <p>info@srtechpath.com</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="hero__standout--content">
-                            <p>Maxsoft is a focused product development, software services and technology consulting company. Established in Texas and Offshore development centers in India, we have engaged with a lot of clients in creating strategy, implementing, deploying, and supporting a wide range of solutions for clients worldwide. Our clients include a diversified set of Fortune 500, free essay example mid-sized and startup companies. They rely on us to provide them with timely, high-quality work and they return to us because we're reliable, experienced and easy to work with.</p>
-                           
+                    <div class="col-6 col-lg-2 col-sm-3">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title">About Us</h4>
+                            <ul class="footer__widget-linklist">
+                                <li><a href="#">About Us</a></li>
+                                <!-- <li><a href="#">Email marketing</a></li>
+                                <li><a href="#">HTML template</a></li>
+                                <li><a href="#">Angular builder</a></li>
+                                <li><a href="#">Worpress theme</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 col-sm-3">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title">Services</h4>
+                            <ul class="footer__widget-linklist">
+                                <li><a href="#">Consulting</a></li>
+                                <li><a href="#">Staffing</a></li>
+                                <li><a href="#">App Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 col-sm-3">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title">Trainging</h4>
+                            <ul class="footer__widget-linklist">
+                                <li><a href="#">UI Development</a></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">RPA</a></li>
+                                <li><a href="#">ASP.NET</a></li>
+                                <li><a href="#">QA</a></li>
+                                <li><a href="#">Python</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-6 col-lg-3 col-sm-3">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title">Follow us</h4>
+                            <ul class="footer__widget-network">
+                                <li><a href="#" class="footer__widget-network-link"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="footer__widget-network-link"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="footer__widget-network-link"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" class="footer__widget-network-link"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="section pt-40">
-        <div class="container">
-            <div class="notices__heading">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <h2 class="section__heading">Our Mission</h2>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="notices__content">
-                            <p>We will work directly with you throughout the web development process. Our goal is to make you happy with guaranteed and impeccable customer service unlike you have experienced with any other website development company.
-    
-                                </p>
-                            <p>Maxsoft is an expert in providing training for learning various software, hardware and networking. IT courses which has good employment opportunities are designed and offered by globally certified trainers. Internship training with live and real-time projects is provided with the training course. Placement support with unlimited number of interviews to leading IT companies and multinational IT companies is provided by Maxsoft .</p>
+                    <div class="col">
+                        <div class="footer__subfooter">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Â© <a href="#">SRtech</a></p>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <ul class="footer__subfooter-liststyle">
+                                        <!-- <li><a href="#">Terms Of Service</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Help</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-device column-icon"></span>
-                        <h4>Improve Your Business</h4>
-                        <p>
-                            Help our customers grow and improve their business.
-                        </p>
-                    </div>
-                </div>
+        </footer>
+        <!-- End Footer -->
     
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-gift column-icon"></span>
-                        <h4>Workplace for Employees</h4>
-                        <p>
-                            Create a workplace where employees can learn, grow and prosper.
-                        </p>
-                    </div>
-                </div>
-    
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-paper-plane column-icon"></span>
-                        <h4>Best Investment</h4>
-                        <p>
-                            Deliver the best return on investment and create long-term value for our shareholders.
-                        </p>
-                    </div>
-                </div>
-    
-                <div class="col-lg-4">
-                    <div class="section__column section__column-left">
-                        <span class="icon icon-chart column-icon"></span>
-                        <h4>Contributions</h4>
-                        <p>
-                            Make contributions to enhance the well-being of the communities where we live and work.
-                        </p>
-                    </div>
-                </div>
-    
-               
-                
-            </div>
-           
-        </div>
-    </section>
-
-
-            <footer class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="footer__widget">
-                                <img src="../images/LogoColorTextRight.png" class="footer__widget-logo" alt="Smooth">
-                                <p>7150 Holland Dr, Suite 102B <br>
-                                    Frisco TX 75035</p>
-                                <div class="footer__widget-contact">
-                                    <i class="fa fa-phone"></i>
-                                    <p>469-405-5335</p>
-                                </div>
-                                <div class="footer__widget-contact">
-                                    <i class="fa fa-envelope"></i>
-                                    <p>Hr@maxsoft-it.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-2 col-sm-3">
-                            <div class="footer__widget">
-                                <h4 class="footer__widget-title">About Us</h4>
-                                <ul class="footer__widget-linklist">
-                                    <li><a href="#">About Us</a></li>
-                                    <!-- <li><a href="#">Email marketing</a></li>
-                      <li><a href="#">HTML template</a></li>
-                      <li><a href="#">Angular builder</a></li>
-                      <li><a href="#">Worpress theme</a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-2 col-sm-3">
-                            <div class="footer__widget">
-                                <h4 class="footer__widget-title">Services</h4>
-                                <ul class="footer__widget-linklist">
-                                    <li><a href="#">Consulting</a></li>
-                                    <li><a href="#">Staffing</a></li>
-                                    <li><a href="#">App Development</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-2 col-sm-3">
-                            <div class="footer__widget">
-                                <h4 class="footer__widget-title">Trainging</h4>
-                                <ul class="footer__widget-linklist">
-                                    <li><a href="#">UI Development</a></li>
-                                    <li><a href="#">Java</a></li>
-                                    <li><a href="#">RPA</a></li>
-                                    <li><a href="#">ASP.NET</a></li>
-                                    <li><a href="#">QA</a></li>
-                                    <li><a href="#">Python</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-lg-3 col-sm-3">
-                            <div class="footer__widget">
-                                <h4 class="footer__widget-title">Follow us</h4>
-                                <ul class="footer__widget-network">
-                                    <li><a href="#" class="footer__widget-network-link"><i
-                                                class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" class="footer__widget-network-link"><i
-                                                class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" class="footer__widget-network-link"><i
-                                                class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#" class="footer__widget-network-link"><i
-                                                class="fa fa-youtube-play"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="footer__subfooter">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <p>Â© <a href="#">Maxsoft</a></p>
-                                    </div>
-                                    <div class="col-md-6 text-right">
-                                        <ul class="footer__subfooter-liststyle">
-                                            <!-- <li><a href="#">Terms Of Service</a></li>
-                              <li><a href="#">Privacy Policy</a></li>
-                              <li><a href="#">Help</a></li> -->
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-
-
-
-        </div>
-
-    </div>
+      
+          <!-- Bootstrap core JavaScript
+          ================================================== -->
+          <!-- Placed at the end of the document so the pages load faster -->
+          <script src="assets/js/jquery.min.js"></script>
+      
+          <!-- Template main JavaScript -->
+          <script src="assets/js/main.min.js"></script>
+      
+          <!-- Template custome JavaScript -->
+          <script src="assets/js/scripts.min.js"></script>
+          
+      
+      
+      <!-- Mirrored from 99webpage.com/theme-review/landingpage/smooth/home-alt6.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Feb 2021 06:52:14 GMT -->
+      
+      </div>
 </body>
 
 </html>

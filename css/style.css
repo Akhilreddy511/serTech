@@ -4,6 +4,17 @@
  
  }
 
+ .font-downArrow{
+    font-family: FontAwesome;
+    left: -14px;
+    top: 17px;
+    font-size: 13px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+ 
  
 .header__inner, .header__inner:hover {
     background: #fff;
@@ -238,12 +249,6 @@ content: "";
     text-align: center;
 }
 
-.section__heading {
-    display: block;
-    position: relative;
-    padding-bottom: 30px;
-    margin-bottom: 40px;
-}
 .pricing__content-price, .pricing__grid-header--icon, .section__heading, h1 {
     font-family: "Montserrat Bold",sans-serif;
     font-size: 36px;
@@ -267,6 +272,11 @@ content: "";
     flex: 0 0 100%;
     max-width: 100%;
 }
+@media (min-width: 1400px){
+.container, .core-nav .nav-container {
+    max-width: 1200px;
+}
+}
 }
 @media (min-width: 992px){
 .col-lg-6 {
@@ -281,6 +291,9 @@ content: "";
 .section {
     position: relative;
     padding: 80px 0;
+}
+article, aside, figcaption, figure, footer, header, hgroup, legend, main, nav, section {
+    display: block;
 }
 .pb-0, .py-0 {
     padding-bottom: 0!important;
@@ -297,6 +310,10 @@ content: "";
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+.section__heading-center:before {
+    left: 50%;
+    margin-left: -42.5px;
 }
 
 /* back to top */

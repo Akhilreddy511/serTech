@@ -4,7 +4,17 @@
  
  }
 
-
+ .font-downArrow{
+    font-family: FontAwesome;
+    left: -14px;
+    top: 17px;
+    font-size: 13px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+ 
  
 .header__inner, .header__inner:hover {
     background: #fff;
@@ -65,9 +75,14 @@
 }
 .header__inner .nav-header .brand {
     margin-top: 0px!important;
+   
+    
 }
 .core-content .brand {
     outline: 0;
+}
+.core-content .brand img{
+    height: 50px
 }
 a {
     transition: all .3s ease-in-out!important;
@@ -126,6 +141,7 @@ a {
 }
 .header .menu li {
     padding: 0 15px;
+   
 }
 /* * {
     box-sizing: border-box;
@@ -138,9 +154,7 @@ a {
     color: var(--bs-link-color);
     text-decoration: underline;
 }
-.core-content .brand img{
-    height: 50px
-}
+
 .header .menu li a {
     display: inline-block;
     color: #2c2d2d;
